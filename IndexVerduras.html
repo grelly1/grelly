@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Abarrotes - Verduras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .product p {
+            margin: 0 0 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img{
+    width:20%;
+    max-width:250px;
+}
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>Tienda de Abarrotes</h1>
+        <p>¡Las mejores verduras frescas para ti!</p>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#verduras">Verduras</a>
+        <a href="#frutas">Frutas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="verduras">
+            <h2>Verduras Frescas</h2>
+            <div class="product">
+                <li>Zanahorias</li> 
+                <img src="./imagenes/Zanahorias.png">
+                <p>Precio: 1kg:40$</p>
+                <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Tomates</li>
+                <img src="./imagenes/Tomates.jpg">
+                <p>precio: 1kg: 35$ </p>
+                 <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Lechugas</li>
+                <img src="./imagenes/Lechuga.jpg">
+                <p>precio: 1pz: 13$</p>
+                 <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Pimientos</li>
+                <img src="./imagenes/pimiento.png">
+                <p>precio: 1kg: 70$</p>
+                 <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Brócoli</li>
+                 <img src="./imagenes/brocoli.png">
+                 <p>precio: 1kg: 52$</p>
+                  <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Papa:</li>
+                 <img src="./imagenes/papa.png">
+                 <p>precio:1kg: 38$</p>
+                  <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+                <li>Chayote</li>
+                 <img src="./imagenes/chayote.png">
+                 <p>precio: 1kg: 80$</p>
+                  <button class="truck-button">
+                    <span>agregar al carrito</span>
+                </button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Para más información, contáctanos en <a href="mailto:info@verdurasfrescas.com">info@verdurasfrescas.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Verduras Frescas. Todos los derechos reservados.</p>
+    </footer>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Abarrotes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
